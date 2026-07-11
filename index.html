@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Altarxito — Emails corregidos</title>
+<style>
+  :root {
+    --bg: #F7F1F2;
+    --surface: #FFFFFF;
+    --text: #1A1615;
+    --text-muted: #7A6C71;
+    --accent: #D40F7D;
+    --border: #EAE0E2;
+    --shadow: 0 1px 2px rgba(60, 20, 40, 0.04), 0 12px 28px -12px rgba(60, 20, 40, 0.16);
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  .wrap {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 56px 20px 96px;
+  }
+  .page-head { margin-bottom: 48px; }
+  .eyebrow {
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin: 0 0 10px;
+  }
+  h1 {
+    font-family: Georgia, "Iowan Old Style", "Palatino Linotype", serif;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 1.15;
+    margin: 0 0 14px;
+    color: var(--text);
+  }
+  .page-head p {
+    font-size: 15px;
+    line-height: 1.6;
+    color: var(--text-muted);
+    max-width: 56ch;
+    margin: 0;
+  }
+  .proofs { display: flex; flex-direction: column; gap: 40px; }
+  .proof {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 24px;
+    box-shadow: var(--shadow);
+  }
+  .proof-head {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    margin-bottom: 18px;
+  }
+  .chip {
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    padding: 5px 12px;
+    border-radius: 999px;
+    background: var(--chip-bg);
+    color: var(--chip-fg);
+  }
+  .trigger {
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.55;
+    color: var(--text-muted);
+    max-width: 60ch;
+  }
+  .frame {
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    overflow: hidden;
+    background: #f5f0eb;
+  }
+  .frame a { pointer-events: none !important; cursor: default !important; }
+  .filename {
+    margin: 12px 0 0;
+    font-size: 11px;
+    font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    color: var(--text-muted);
+    opacity: 0.7;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="page-head">
+    <p class="eyebrow">Altarxito · Email marketing</p>
+    <h1>Correcciones aplicadas — para revisión</h1>
+    <p>Los 4 flujos con los cambios de copy solicitados, tal como los recibiría un suscriptor real (no capturas de pantalla). Variables de Klaviyo sin resolver (ej. {{ first_name }}) se muestran tal cual quedarán en la plantilla. Los botones están desactivados solo en esta vista de revisión.</p>
+  </div>
+  <div class="proofs">
+    
+      <section class="proof" aria-labelledby="proof-0-title">
+        <header class="proof-head">
+          <span class="chip" style="--chip-bg:#D40F7D; --chip-fg:#FFFFFF;">Email de bienvenida</span>
+          <p class="trigger" id="proof-0-title">Se envía cuando un usuario registra sus datos en Shopify.</p>
+        </header>
+        <div class="frame">
+
+<table width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#f5f0eb;">
+  <tr>
+    <td align="center" style="padding:32px 16px;">
+
+      <table width="600" cellpadding="0" cellspacing="0" border="0" style="max-width:600px;width:100%;background-color:#ffffff;border-radius:4px;overflow:hidden;">
+
+        <tr>
+          <td style="background-color:#1A1A1A;padding:28px 40px 20px;">
+            <p style="margin:0;font-family:Arial,sans-serif;font-size:11px;letter-spacing:3px;color:#D40F7D;text-transform:uppercase;">Altarxito</p>
+          </td>
+        </tr>
+
+        <!-- Papel picado -->
+        <tr>
+          <td style="padding:0;line-height:0;font-size:0;">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABLAAAABYCAIAAABqG5lkAAAFXUlEQVR42u3doW8UaRjH8e2GpBIQGATmJI5/AEMwJxokTRCXnCJoDOEEnmBIMU0QFYcjiIqSGv6B1vTkmRPgCJaEpCcGtZmdfed9n2dv5/bzsUOeHxn3zTTZnYurz2dM2fX9Qy9h0p6dvPQSJu3HmxtewqQd7b7yEiZt7+uplzBp58fvvIRJe3r2xUuYtLlXAAAAIAgBAAAQhAAAAAhCAAAABCEAAACCEAAAAEEIAACAIAQAAEAQAgAAIAgBAAAQhAAAAAhCAAAABCEAAACCEAAAAEEIAACAIAQAAEAQAgAAIAgBAAAQhAAAAAhCAAAABCEAAACCEAAAAEEIAACAIAQAABCEAAAACEIAAAAEIQAAAIIQAAAAQQgAAIAgBAAAQBACAAAgCAEAABCEAAAACEIAAAAEIQAAAIIQAAAAQQgAAIAgBAAAQBACAAAgCAEAABCEAAAACEIAAAAEIQAAAIIQAAAAQQgAAIAgBAAAQBACAAAIQgAAAAQhAAAAghAAAABBCAAAgCAEAABAEAIAACAIAQAAEIQAAAAIQgAAAAQhAAAAghAAAABBCAAAgCAEAABAEAIAACAIAQAAEIQAAAAIQgAAAAQhAAAAghAAAABBCAAAQIkr5f/09rcXyx79de2P8P+ZuXA3Dz4ve/T58U1zmzzXefv3w2WPfvvlT3ObPNc5un9v2aNHH0/NbfLcT3ePlz769Ku5jZ6bzWaz2YcH35c92nu/a26T5zr/HD5Y9ujW7+/NbfJc58nZ42WPXt85MPdfze1cXH1enS4ZMWNu7Nz1/cPqdMmIGXNj556dvKxOl4yYMTd27sebG9XpkhEz5sbOHe2+qk+XjJgxN3Ju7+tpdbpkxIy5sXPnx++q0yUjZsyNnXt69qU6XTLaydzYuaEgHFUv7eFkrm5uIAhH1Ut7OJmrmxsIwlH10h5O5urmBoJwVL20h5O5urmhIBxVL+3hZK5qbiAIR9VLeziZq5sbCMJR9dIeTubq5gaCcFS9tIeTubq5/iCsrpe6cDLXMtcbhNX1UhdO5lrmeoOwul7qwslcy1xvEFbXS104mWuZ6w/C6nqpCydzDXO9QVhdL3XhZK5lrjcIq+ulLpzMtcz1BmF1vdSFk7mWuXlSwJTfMRd+JyRgyu+YC78TEjDld8yF3wkJmPI75uLvhARM+R1z0XdCAqb8jrnwOyEBU37HXPidkIApv2Ou8c48KWAKr5kLb8KogCm8Zi68CaMCpvCaufAmjAqYwmvm4pswKmAKr5mLbsKogCm8Zi68CaMCpvCaufAmjAqYwmvm2ufmeQGz8qa58CaMDZiVN82FN2FswKy8aS68CWMDZuVNc/FNGBswK2+ai27C2IBZedNceBPGBszKm+bCmzA2YFbeNBcyN08NmIHL5sKbMCNgBi6bC2/CjIAZuGwuvAkzAmbgsrn4JswImIHL5qKbMCNgBi6bC2/CjIAZuGwuvAkzAmbgsrmouXl2wPTeNxfehHkB03vfXHgT5gVM731z4U2YFzC9983FN2FewPTeNxfdhHkB03vfXHgT5gVM731z4U2YFzC9980Fzs3XEDALGWMuvAmzA2ZhxVx4E2YHzMKKufAmzA6YhRVz8U2YHTALK+aimzA7YBZWzIU3YXbALKyYC2/C7IBZWDEX24TzGQAAAFtp5/Ly0luYqO7HCdfzTZIM3Y8TruebJBm6HydczzdJMnQ/Trieb5Kk6H6ccD3fJEnQ/Tjher5JkqH7ccL1fJMkQ/fjhL4QAgAAbClfCAEAALbR6zsHvhACAABsKUEIAACwpfzJKAAAwJbyhRAAAEAQAgAAIAgBAAD43/sXpoEiSxHEzIAAAAAASUVORK5CYII=" width="600" height="44" style="display:block;width:100%;max-width:600px;" alt="">
+          </td>
+        </tr>
+
+        <!-- Hero rosa/magenta -->
+        <tr>
+          <td style="background-color:#D40F7D;padding:20px 40px 32px;">
+            <h1 style="margin:0;font-family:Georgia,serif;font-size:40px;font-weight:bold;color:#ffffff;line-height:1.15;">Something brought you here.</h1>
+            <p style="margin:16px 0 0;font-family:Georgia,serif;font-size:16px;color:#FFF8F0;font-style:italic;line-height:1.5;opacity:0.9;">And that something deserves an altar this year.</p>
+          </td>
+        </tr>
+
+        <!-- Cuerpo -->
+        <tr>
+          <td style="padding:40px 40px 16px;">
+            <p style="margin:0 0 24px;font-family:Georgia,serif;font-size:17px;color:#1A1A1A;line-height:1.7;">Hola! Welcome to Altarxito.</p>
+            <p style="margin:0 0 24px;font-family:Georgia,serif;font-size:17px;color:#1A1A1A;line-height:1.7;">What brings you here?</p>
+            <p style="margin:0 0 24px;font-family:Georgia,serif;font-size:17px;color:#1A1A1A;line-height:1.7;">No one ends up on an altar shop by accident. &#8220;There's a reason&#8221; &#8212; Ana Beatriz</p>
+            <p style="margin:0;font-family:Georgia,serif;font-size:19px;color:#1A1A1A;line-height:1.6;font-weight:bold;">Whatever it is, you're already here. And that's the first step.</p>
+          </td>
+        </tr>
+
+        <!-- CTA rosa -->
+        <tr>
+          <td style="padding:32px 40px 8px;">
+            <table cellpadding="0" cellspacing="0" border="0">
+              <tr>
+                <td style="background-color:#D40F7D;border-radius:2px;">
+                  <a onclick="return false;" href="https://altarxito.com/products/altarxito" style="display:inline-block;padding:16px 36px;font-family:Arial,sans-serif;font-size:15px;font-weight:bold;color:#ffffff;text-decoration:none;letter-spacing:0.5px;">See kit &#8594;</a>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+
+        <!-- Separador -->
+        <tr>
+          <td style="padding:32px 40px 0;">
+            <table width="100%" cellpadding="0" cellspacing="0" border="0">
+              <tr><td style="border-top:2px solid #D40F7D;height:1px;"></td></tr>
+            </table>
+          </td>
+        </tr>
+
+        <!-- Every Altar Kit includes -->
+        <tr>
+          <td style="padding:32px 40px;">
+            <p style="margin:0 0 16px;font-family:Georgia,serif;font-size:17px;color:#1A1A1A;line-height:1.7;font-weight:bold;">Every Altar Kit includes:</p>
+            <p style="margin:0 0 12px;font-family:Georgia,serif;font-size:17px;color:#1A1A1A;line-height:1.7;">&#8226; A pop up altar</p>
+            <p style="margin:0 0 12px;font-family:Georgia,serif;font-size:17px;color:#1A1A1A;line-height:1.7;">&#8226; &#8220;Calaveritas&#8221; (a ceramic skull)</p>
+            <p style="margin:0 0 12px;font-family:Georgia,serif;font-size:17px;color:#1A1A1A;line-height:1.7;">&#8226; &#8220;Cempaz&#250;chitl flowers&#8221;, the Mexican flowers that are an important part of every traditional altar of Mexico</p>
+            <p style="margin:0 0 12px;font-family:Georgia,serif;font-size:17px;color:#1A1A1A;line-height:1.7;">&#8226; &#8220;Xolo&#8221; (pronounced cholo) and &#8220;Alebrije&#8221;, spirits of dog and incredible animals that guide loved ones on their after-life journeys</p>
+            <p style="margin:0;font-family:Georgia,serif;font-size:17px;color:#1A1A1A;line-height:1.7;">&#8226; A glass to quench the departed's thirst on their journey</p>
+          </td>
+        </tr>
+
+        <!-- Bloque autenticidad -->
+        <tr>
+          <td style="background-color:#FFF8F0;padding:24px 40px;border-left:4px solid #D40F7D;">
+            <p style="margin:0;font-family:Georgia,serif;font-size:15px;color:#444444;line-height:1.7;font-style:italic;">Designed by Ana Beatriz. She is originally from Veracruz, Mexico. She grew up in Mexico City and later lived for more than 30 years in Canc&#250;n.</p>
+          </td>
+        </tr>
+
+        <tr>
+          <td style="background-color:#1A1A1A;padding:20px 40px;">
+            <p style="margin:0;font-family:Arial,sans-serif;font-size:11px;color:#666666;letter-spacing:1px;text-transform:uppercase;">&#169; Altarxito</p>
+          </td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+
+        </div>
+        <p class="filename">altarxito_klaviyo_welcome-signup.html</p>
+      </section>
+
+      <section class="proof" aria-labelledby="proof-1-title">
+        <header class="proof-head">
+          <span class="chip" style="--chip-bg:#1A1A1A; --chip-fg:#FFC04A;">Email de compra</span>
+          <p class="trigger" id="proof-1-title">Se envía cuando un usuario concreta una compra.</p>
+        </header>
+        <div class="frame">
+
+<table width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#f5f0eb;">
+  <tr>
+    <td align="center" style="padding:32px 16px;">
+
+      <table width="600" cellpadding="0" cellspacing="0" border="0" style="max-width:600px;width:100%;background-color:#ffffff;border-radius:4px;overflow:hidden;">
+
+        <!-- Header negro -->
+        <tr>
+          <td style="background-color:#1A1A1A;padding:28px 40px 20px;">
+            <p style="margin:0;font-family:Arial,sans-serif;font-size:11px;letter-spacing:3px;color:#D40F7D;text-transform:uppercase;">Altarxito</p>
+          </td>
+        </tr>
+
+        <!-- Papel picado -->
+        <tr>
+          <td style="padding:0;line-height:0;font-size:0;">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABLAAAABYCAIAAABqG5lkAAAFX0lEQVR42u3dsaoUdxjGYc8mYCCFCBHh5CYskhtIEUh1+tOEkNYyCHKwDGkUG8HGEIIQbFNIMEhuIEEtvAWRQLATUiixmFTL7OzMf95vs5N9nnble2Ww+THCHD2/cOMcS3bx9J6HsGhnj255CIv25u4lD2HR7p+/7SEs2smrxx7Coj19+MBDWLRrT156CIu28ggAAAAEIQAAAIIQAAAAQQgAAIAgBAAAQBACAAAgCAEAABCEAAAACEIAAAAEIQAAAIIQAAAAQQgAAIAgBAAAQBACAAAgCAEAABCEAAAACEIAAAAEIQAAAIIQAAAAQQgAAIAgBAAAQBACAAAgCAEAABCEAAAAghAAAABBCAAAgCAEAABAEAIAACAIAQAAEIQAAAAIQgAAAAQhAAAAghAAAABBCAAAgCAEAABAEAIAACAIAQAAEIQAAAAIQgAAAAQhAAAAghAAAABBCAAAgCAEAABAEAIAACAIAQAAEIQAAAAIQgAAAEEIAACAIAQAAEAQAgAAIAgBAAAQhAAAAAhCAAAABCEAAACCEAAAAEEIAACAIAQAAEAQAgAAIAgBAAAQhAAAAAhCAAAABCEAAACCEAAAAEEIAACAIAQAAEAQAgAAIAgBAAAY4/3xf/TzD7/f9NOvr7+O/83MxX3689Gmn34/+cfcPs/9+2/j7282/ov64Ka5fZ7r/PbVl5t++uyHH83t81zn49Nnm3568dMVc/s81/nj6kebfvrkzl/m9nmu8/aXq5t+eu+LO+b2ea7z3Z/fbvrp+uUzc//V3NHzCzea06UiZsxNnbt4eq85XSpixtzUubNHt5rTpSJmzE2de3P3UnO6VMSMualz98/fbk6XipgxN3Xu5NXj5nSpiBlzU+eePnzQnC4VMWNu6ty1Jy+b06WincxNnRsKwkn1Mj+czLXNDQThpHqZH07m2uYGgnBSvcwPJ3NtcwNBOKle5oeTuba5gSCcVC/zw8lc29xAEE6ql/nhZK5tbiAIJ9XL/HAy1zY3EIST6mV+OJlrm+sPwuZ6aQsnc3PmeoOwuV7awsncnLneIGyul7ZwMjdnrjcIm+ulLZzMzZnrDcLmemkLJ3Nz5nqDsLle2sLJ3Jy53iBsrpe2cDI3Z643CJvrpS2czM2ZWxUFzPg75uJ3IgEz/o65+J1IwIy/Yy5+JxIw4++Yi9+JBMz4O+bidyIBM/6OufidSMCMv2MuficSMOPvmJt5Z1UUMCOvmYs3YSpgRl4zF2/CVMCMvGYu3oSpgBl5zVy8CVMBM/KauXgTpgJm5DVz8SZMBczIa+biTZgKmJHXzM2fW9UFzNab5uJNmA2YrTfNxZswGzBbb5qLN2E2YLbeNBdvwmzAbL1pLt6E2YDZetNcvAmzAbP1prl4E2YDZutNc5G5VWnADFw2F2/CioAZuGwu3oQVATNw2Vy8CSsCZuCyuXgTVgTMwGVz8SasCJiBy+biTVgRMAOXzcWbsCJgBi6bS82tqgOm9765eBPWBUzvfXPxJqwLmN775uJNWBcwvffNxZuwLmB675uLN2FdwPTeNxdvwrqA6b1vLt6EdQHTe99ccG61g4BZyxhz8SasDpi1FXPxJqwOmLUVc/EmrA6YtRVz8SasDpi1FXPxJqwOmLUVc/EmrA6YtRVz8SasDpi1FXPZJlydAwAA4CAdHR8fewoL1X2ccDfvJKnQfZxwN+8kqdB9nHA37ySp0H2ccDfvJKnQfZxwN+8kqdB9nHA37ySp0H2ccDfvJKnQfZzQG0IAAIAD5Q0hAADAIbp++cwbQgAAgAMlCAEAAA6U/zIKAABwoLwhBAAAEIQAAAAIQgAAAP733gE6NxQcPOujSwAAAABJRU5ErkJggg==" width="600" height="44" style="display:block;width:100%;max-width:600px;" alt="">
+          </td>
+        </tr>
+
+        <!-- Hero -->
+        <tr>
+          <td style="background-color:#1A1A1A;padding:20px 40px 32px;">
+            <h1 style="margin:0;font-family:Georgia,serif;font-size:42px;font-weight:bold;color:#ffffff;line-height:1.1;">You did it! Your Altarxito altar kit is on its way</h1>
+            <p style="margin:16px 0 0;font-family:Georgia,serif;font-size:16px;color:#FFC04A;font-style:italic;line-height:1.5;">The promise you&#8217;ve been making yourself just became real.</p>
+          </td>
+        </tr>
+
+        <!-- Cuerpo -->
+        <tr>
+          <td style="padding:40px 40px 16px;">
+            <p style="margin:0 0 24px;font-family:Georgia,serif;font-size:17px;color:#1A1A1A;line-height:1.7;">Soon your journey into Dia de Muerto will begin.</p>
+            <p style="margin:0 0 24px;font-family:Georgia,serif;font-size:17px;color:#1A1A1A;line-height:1.7;">{{ first_name|default:'Friend' }}, you followed through.</p>
+            <p style="margin:0 0 24px;font-family:Georgia,serif;font-size:17px;color:#1A1A1A;line-height:1.7;">No more excuses. No more &#8220;next year.&#8221; No more letting November slip by like it doesn&#8217;t matter.</p>
+          </td>
+        </tr>
+
+        <!-- Separador -->
+        <tr>
+          <td style="padding:0 40px;">
+            <table width="100%" cellpadding="0" cellspacing="0" border="0">
+              <tr><td style="border-top:2px solid #D40F7D;height:1px;"></td></tr>
+            </table>
+          </td>
+        </tr>
+
+        <!-- Párrafo central -->
+        <tr>
+          <td style="padding:32px 40px;">
+            <p style="margin:0 0 24px;font-family:Georgia,serif;font-size:17px;color:#1A1A1A;line-height:1.7;">When it arrives, find that photo. The one of the person you lost. Give it a real place &#8212; not buried in your camera roll between screenshots and receipts.</p>
+            <p style="margin:0 0 24px;font-family:Georgia,serif;font-size:17px;color:#1A1A1A;line-height:1.7;">That small moment is the start of something you&#8217;ve owed yourself for a long time.</p>
+            <p style="margin:0 0 24px;font-family:Georgia,serif;font-size:17px;color:#1A1A1A;line-height:1.7;">Thank you for keeping their memory alive, even from far away.</p>
+          </td>
+        </tr>
+
+        <!-- Footer -->
+        <tr>
+          <td style="background-color:#1A1A1A;padding:20px 40px;">
+            <p style="margin:0;font-family:Arial,sans-serif;font-size:11px;color:#666666;letter-spacing:1px;text-transform:uppercase;">&#169; Altarxito</p>
+          </td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+
+        </div>
+        <p class="filename">altarxito_klaviyo_post-purchase.html</p>
+      </section>
+
+      <section class="proof" aria-labelledby="proof-2-title">
+        <header class="proof-head">
+          <span class="chip" style="--chip-bg:#6022A6; --chip-fg:#FFFFFF;">Carrito abandonado — 7 días</span>
+          <p class="trigger" id="proof-2-title">Se envía 7 días después de que un usuario abandona su carrito sin completar la compra.</p>
+        </header>
+        <div class="frame">
+
+<table width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#f5f0eb;">
+  <tr>
+    <td align="center" style="padding:32px 16px;">
+
+      <table width="600" cellpadding="0" cellspacing="0" border="0" style="max-width:600px;width:100%;background-color:#ffffff;border-radius:4px;overflow:hidden;">
+
+        <!-- Header -->
+        <tr>
+          <td style="background-color:#1A1A1A;padding:28px 40px 20px;">
+            <p style="margin:0;font-family:Arial,sans-serif;font-size:11px;letter-spacing:3px;color:#6022A6;text-transform:uppercase;">Altarxito</p>
+          </td>
+        </tr>
+
+        <!-- Papel picado -->
+        <tr>
+          <td style="padding:0;line-height:0;font-size:0;">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABLAAAABYCAIAAABqG5lkAAAFXUlEQVR42u3doW8UaRjH8e2GpBIQGATmJI5/AEMwJxokTRCXnCJoDOEEnmBIMU0QFYcjiIqSGv6B1vTkmRPgCJaEpCcGtZmdfed9n2dv5/bzsUOeHxn3zTTZnYurz2dM2fX9Qy9h0p6dvPQSJu3HmxtewqQd7b7yEiZt7+uplzBp58fvvIRJe3r2xUuYtLlXAAAAIAgBAAAQhAAAAAhCAAAABCEAAACCEAAAAEEIAACAIAQAAEAQAgAAIAgBAAAQhAAAAAhCAAAABCEAAACCEAAAAEEIAACAIAQAAEAQAgAAIAgBAAAQhAAAAAhCAAAABCEAAACCEAAAAEEIAACAIAQAABCEAAAACEIAAAAEIQAAAIIQAAAAQQgAAIAgBAAAQBACAAAgCAEAABCEAAAACEIAAAAEIQAAAIIQAAAAQQgAAIAgBAAAQBACAAAgCAEAABCEAAAACEIAAAAEIQAAAIIQAAAAQQgAAIAgBAAAQBACAAAIQgAAAAQhAAAAghAAAABBCAAAgCAEAABAEAIAACAIAQAAEIQAAAAIQgAAAAQhAAAAghAAAABBCAAAgCAEAABAEAIAACAIAQAAEIQAAAAIQgAAAAQhAAAAghAAAABBCAAAQIkr5f/09rcXyx79de2P8P+ZuXA3Dz4ve/T58U1zmzzXefv3w2WPfvvlT3ObPNc5un9v2aNHH0/NbfLcT3ePlz769Ku5jZ6bzWaz2YcH35c92nu/a26T5zr/HD5Y9ujW7+/NbfJc58nZ42WPXt85MPdfze1cXH1enS4ZMWNu7Nz1/cPqdMmIGXNj556dvKxOl4yYMTd27sebG9XpkhEz5sbOHe2+qk+XjJgxN3Ju7+tpdbpkxIy5sXPnx++q0yUjZsyNnXt69qU6XTLaydzYuaEgHFUv7eFkrm5uIAhH1Ut7OJmrmxsIwlH10h5O5urmBoJwVL20h5O5urmhIBxVL+3hZK5qbiAIR9VLeziZq5sbCMJR9dIeTubq5gaCcFS9tIeTubq5/iCsrpe6cDLXMtcbhNX1UhdO5lrmeoOwul7qwslcy1xvEFbXS104mWuZ6w/C6nqpCydzDXO9QVhdL3XhZK5lrjcIq+ulLpzMtcz1BmF1vdSFk7mWuXlSwJTfMRd+JyRgyu+YC78TEjDld8yF3wkJmPI75uLvhARM+R1z0XdCAqb8jrnwOyEBU37HXPidkIApv2Ou8c48KWAKr5kLb8KogCm8Zi68CaMCpvCaufAmjAqYwmvm4pswKmAKr5mLbsKogCm8Zi68CaMCpvCaufAmjAqYwmvm2ufmeQGz8qa58CaMDZiVN82FN2FswKy8aS68CWMDZuVNc/FNGBswK2+ai27C2IBZedNceBPGBszKm+bCmzA2YFbeNBcyN08NmIHL5sKbMCNgBi6bC2/CjIAZuGwuvAkzAmbgsrn4JswImIHL5qKbMCNgBi6bC2/CjIAZuGwuvAkzAmbgsrmouXl2wPTeNxfehHkB03vfXHgT5gVM731z4U2YFzC9983FN2FewPTeNxfdhHkB03vfXHgT5gVM731z4U2YFzC9980Fzs3XEDALGWMuvAmzA2ZhxVx4E2YHzMKKufAmzA6YhRVz8U2YHTALK+aimzA7YBZWzIU3YXbALKyYC2/C7IBZWDEX24TzGQAAAFtp5/Ly0luYqO7HCdfzTZIM3Y8TruebJBm6HydczzdJMnQ/Trieb5Kk6H6ccD3fJEnQ/Tjher5JkqH7ccL1fJMkQ/fjhL4QAgAAbClfCAEAALbR6zsHvhACAABsKUEIAACwpfzJKAAAwJbyhRAAAEAQAgAAIAgBAAD43/sXpoEiSxHEzIAAAAAASUVORK5CYII=" width="600" height="44" style="display:block;width:100%;max-width:600px;" alt="">
+          </td>
+        </tr>
+
+        <!-- Hero violeta -->
+        <tr>
+          <td style="background-color:#6022A6;padding:20px 40px 32px;">
+            <h1 style="margin:0;font-family:Georgia,serif;font-size:38px;font-weight:bold;color:#ffffff;line-height:1.2;">Do you still have that photo on your phone?</h1>
+            <p style="margin:16px 0 0;font-family:Georgia,serif;font-size:16px;color:#FFC04A;font-style:italic;line-height:1.5;">The one of the person you lost, buried between screenshots and receipts.</p>
+          </td>
+        </tr>
+
+        <!-- Cuerpo -->
+        <tr>
+          <td style="padding:48px 40px 0px;">
+            <p style="margin:0 0 28px;font-family:Georgia,serif;font-size:19px;color:#1A1A1A;line-height:1.7;">Hey Amig@ {{ first_name|default:'Friend' }}, that photo of your lost one deserves a better place than just on your camera roll. It should be on an Altarxito. This is the Mexican way &#8212; with love and a warm heart.</p>
+          </td>
+        </tr>
+
+        <!-- Bloque con borde -->
+        <tr>
+          <td style="padding:0 40px;">
+            <table width="100%" cellpadding="0" cellspacing="0" border="0">
+              <tr>
+                <td style="border-left:3px solid #6022A6;padding:4px 0 4px 20px;">
+                  <p style="margin:0 0 14px;font-family:Georgia,serif;font-size:17px;color:#1A1A1A;line-height:1.75;">An altar. With a candle. With flowers.</p>
+                  <p style="margin:0 0 14px;font-family:Georgia,serif;font-size:17px;color:#1A1A1A;line-height:1.75;">With their name spoken out loud at least once a year.</p>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+
+        <tr>
+          <td style="padding:28px 40px 8px;">
+            <p style="margin:0;font-family:Georgia,serif;font-size:17px;color:#444444;line-height:1.7;font-style:italic;">You&#8217;ve been one click away from making it happen for a week now.</p>
+          </td>
+        </tr>
+
+        <!-- CTA -->
+        <tr>
+          <td style="padding:28px 40px 48px;">
+            <table cellpadding="0" cellspacing="0" border="0">
+              <tr>
+                <td style="background-color:#6022A6;border-radius:2px;">
+                  <a onclick="return false;" href="{{ event.extra.checkout_url }}" style="display:inline-block;padding:16px 36px;font-family:Arial,sans-serif;font-size:15px;font-weight:bold;color:#ffffff;text-decoration:none;letter-spacing:0.5px;">Complete my order &#8594;</a>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+
+        <!-- Footer -->
+        <tr>
+          <td style="background-color:#1A1A1A;padding:20px 40px;">
+            <p style="margin:0;font-family:Arial,sans-serif;font-size:11px;color:#666666;letter-spacing:1px;text-transform:uppercase;">&#169; Altarxito</p>
+          </td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+
+        </div>
+        <p class="filename">altarxito_klaviyo_abandoned-cart-7days.html</p>
+      </section>
+
+      <section class="proof" aria-labelledby="proof-3-title">
+        <header class="proof-head">
+          <span class="chip" style="--chip-bg:#E56919; --chip-fg:#FFFFFF;">Carrito abandonado</span>
+          <p class="trigger" id="proof-3-title">Se envía 1 hora después de que un usuario abandona su carrito sin completar la compra.</p>
+        </header>
+        <div class="frame">
+
+<table width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#f5f0eb;">
+  <tr>
+    <td align="center" style="padding:32px 16px;">
+
+      <table width="600" cellpadding="0" cellspacing="0" border="0" style="max-width:600px;width:100%;background-color:#ffffff;border-radius:4px;overflow:hidden;">
+
+        <!-- Header -->
+        <tr>
+          <td style="background-color:#1A1A1A;padding:28px 40px 20px;">
+            <p style="margin:0;font-family:Arial,sans-serif;font-size:11px;letter-spacing:3px;color:#E56919;text-transform:uppercase;">Altarxito</p>
+          </td>
+        </tr>
+
+        <!-- Papel picado -->
+        <tr>
+          <td style="padding:0;line-height:0;font-size:0;">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABLAAAABYCAIAAABqG5lkAAAFXUlEQVR42u3doW8UaRjH8e2GpBIQGATmJI5/AEMwJxokTRCXnCJoDOEEnmBIMU0QFYcjiIqSGv6B1vTkmRPgCJaEpCcGtZmdfed9n2dv5/bzsUOeHxn3zTTZnYurz2dM2fX9Qy9h0p6dvPQSJu3HmxtewqQd7b7yEiZt7+uplzBp58fvvIRJe3r2xUuYtLlXAAAAIAgBAAAQhAAAAAhCAAAABCEAAACCEAAAAEEIAACAIAQAAEAQAgAAIAgBAAAQhAAAAAhCAAAABCEAAACCEAAAAEEIAACAIAQAAEAQAgAAIAgBAAAQhAAAAAhCAAAABCEAAACCEAAAAEEIAACAIAQAABCEAAAACEIAAAAEIQAAAIIQAAAAQQgAAIAgBAAAQBACAAAgCAEAABCEAAAACEIAAAAEIQAAAIIQAAAAQQgAAIAgBAAAQBACAAAgCAEAABCEAAAACEIAAAAEIQAAAIIQAAAAQQgAAIAgBAAAQBACAAAIQgAAAAQhAAAAghAAAABBCAAAgCAEAABAEAIAACAIAQAAEIQAAAAIQgAAAAQhAAAAghAAAABBCAAAgCAEAABAEAIAACAIAQAAEIQAAAAIQgAAAAQhAAAAghAAAABBCAAAQIkr5f/09rcXyx79de2P8P+ZuXA3Dz4ve/T58U1zmzzXefv3w2WPfvvlT3ObPNc5un9v2aNHH0/NbfLcT3ePlz769Ku5jZ6bzWaz2YcH35c92nu/a26T5zr/HD5Y9ujW7+/NbfJc58nZ42WPXt85MPdfze1cXH1enS4ZMWNu7Nz1/cPqdMmIGXNj556dvKxOl4yYMTd27sebG9XpkhEz5sbOHe2+qk+XjJgxN3Ju7+tpdbpkxIy5sXPnx++q0yUjZsyNnXt69qU6XTLaydzYuaEgHFUv7eFkrm5uIAhH1Ut7OJmrmxsIwlH10h5O5urmBoJwVL20h5O5urmhIBxVL+3hZK5qbiAIR9VLeziZq5sbCMJR9dIeTubq5gaCcFS9tIeTubq5/iCsrpe6cDLXMtcbhNX1UhdO5lrmeoOwul7qwslcy1xvEFbXS104mWuZ6w/C6nqpCydzDXO9QVhdL3XhZK5lrjcIq+ulLpzMtcz1BmF1vdSFk7mWuXlSwJTfMRd+JyRgyu+YC78TEjDld8yF3wkJmPI75uLvhARM+R1z0XdCAqb8jrnwOyEBU37HXPidkIApv2Ou8c48KWAKr5kLb8KogCm8Zi68CaMCpvCaufAmjAqYwmvm4pswKmAKr5mLbsKogCm8Zi68CaMCpvCaufAmjAqYwmvm2ufmeQGz8qa58CaMDZiVN82FN2FswKy8aS68CWMDZuVNc/FNGBswK2+ai27C2IBZedNceBPGBszKm+bCmzA2YFbeNBcyN08NmIHL5sKbMCNgBi6bC2/CjIAZuGwuvAkzAmbgsrn4JswImIHL5qKbMCNgBi6bC2/CjIAZuGwuvAkzAmbgsrmouXl2wPTeNxfehHkB03vfXHgT5gVM731z4U2YFzC9983FN2FewPTeNxfdhHkB03vfXHgT5gVM731z4U2YFzC9980Fzs3XEDALGWMuvAmzA2ZhxVx4E2YHzMKKufAmzA6YhRVz8U2YHTALK+aimzA7YBZWzIU3YXbALKyYC2/C7IBZWDEX24TzGQAAAFtp5/Ly0luYqO7HCdfzTZIM3Y8TruebJBm6HydczzdJMnQ/Trieb5Kk6H6ccD3fJEnQ/Tjher5JkqH7ccL1fJMkQ/fjhL4QAgAAbClfCAEAALbR6zsHvhACAABsKUEIAACwpfzJKAAAwJbyhRAAAEAQAgAAIAgBAAD43/sXpoEiSxHEzIAAAAAASUVORK5CYII=" width="600" height="44" style="display:block;width:100%;max-width:600px;" alt="">
+          </td>
+        </tr>
+
+        <!-- Hero naranja -->
+        <tr>
+          <td style="background-color:#E56919;padding:20px 40px 32px;">
+            <h1 style="margin:0;font-family:Georgia,serif;font-size:36px;font-weight:bold;color:#ffffff;line-height:1.2;">Your cart is still waiting.<br>November isn&#8217;t.</h1>
+            <p style="margin:16px 0 0;font-family:Georgia,serif;font-size:16px;color:#1A1A1A;font-style:italic;line-height:1.5;">Another November without an altar, or this year different. Both options are still open.</p>
+          </td>
+        </tr>
+
+        <!-- Cuerpo -->
+        <tr>
+          <td style="padding:40px 40px 16px;">
+            <p style="margin:0 0 24px;font-family:Georgia,serif;font-size:17px;color:#1A1A1A;line-height:1.7;">Hey Amig@ {{ first_name|default:'Friend' }}, it&#8217;s one click away.</p>
+            <p style="margin:0 0 24px;font-family:Georgia,serif;font-size:17px;color:#1A1A1A;line-height:1.7;">The same kit &#8212; the altar, the ceramic skulls, the xolo figures, the flowers, the candle. Everything ready to set up in 20 minutes.</p>
+          </td>
+        </tr>
+
+        <!-- Separador -->
+        <tr>
+          <td style="padding:0 40px;">
+            <table width="100%" cellpadding="0" cellspacing="0" border="0">
+              <tr><td style="border-top:2px solid #E56919;height:1px;"></td></tr>
+            </table>
+          </td>
+        </tr>
+
+        <!-- Párrafo emocional -->
+        <tr>
+          <td style="padding:32px 40px 16px;">
+            <p style="margin:0;font-family:Georgia,serif;font-size:15px;color:#666666;line-height:1.7;font-style:italic;">What you can&#8217;t get back is November once it&#8217;s gone.</p>
+          </td>
+        </tr>
+
+        <tr>
+          <td style="background-color:#FFF8F0;padding:24px 40px;border-left:4px solid #E56919;">
+            <p style="margin:0;font-family:Georgia,serif;font-size:17px;color:#1A1A1A;line-height:1.8;">Keep the memory of your lost loved one alive the Mexican way &#8212; with love and a warm heart. Set up an Altarxito.</p>
+          </td>
+        </tr>
+
+        <tr>
+          <td style="padding:32px 40px 8px;">
+            <p style="margin:0;font-family:Georgia,serif;font-size:17px;color:#1A1A1A;line-height:1.7;">This time you don&#8217;t have to wait another year. Your cart is open right now.</p>
+          </td>
+        </tr>
+
+        <!-- CTA -->
+        <tr>
+          <td style="padding:24px 40px 40px;">
+            <table cellpadding="0" cellspacing="0" border="0">
+              <tr>
+                <td style="background-color:#E56919;border-radius:2px;">
+                  <a onclick="return false;" href="{{ event.extra.checkout_url }}" style="display:inline-block;padding:16px 36px;font-family:Arial,sans-serif;font-size:15px;font-weight:bold;color:#ffffff;text-decoration:none;letter-spacing:0.5px;">Complete my order &#8594;</a>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+
+        <!-- Footer -->
+        <tr>
+          <td style="background-color:#1A1A1A;padding:20px 40px;">
+            <p style="margin:0;font-family:Arial,sans-serif;font-size:11px;color:#666666;letter-spacing:1px;text-transform:uppercase;">&#169; Altarxito</p>
+          </td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+
+        </div>
+        <p class="filename">altarxito_klaviyo_abandoned-cart-1hr.html</p>
+      </section>
+  </div>
+</div>
+</body>
+</html>
